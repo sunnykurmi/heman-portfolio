@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+.ttee {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-90%);
+  }
+}
+
+.html{
+    scroll-behavior: smooth;
+}
+
+.marquee {
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes verticalScroll {
+  0% {
+    transform: translate(-50%, -50%) rotate(-90deg) translateX(0%);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-90deg) translateX(-35%);
+  }
+}
+
+@keyframes horizontalScroll {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.vertical-marquee-wrapper {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.vertical-move-marquee {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  animation: verticalScroll 15s linear infinite;
+}
+
+@media (max-width: 600px) {
+  .vertical-move-marquee {
+    position: initial;
+    top: 0;
+    left: 0;
+    transform: none;
+    animation: none;
+    display: grid;
+    place-items: center;
+    animation: horizontalScroll 15s linear infinite;
+  }
+}
+
+@media (max-width:431px)  {
+    .project-info{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: start !important;
+        padding-left: 30px !important;
+        width: 100vw !important;
+    }
+    .project-img{
+        width: 40vh !important;
+        height: 28vh !important;
+    }
+
+    .certificate-image{
+        width: 40vh !important;
+        height: 30vh !important;
+    }
+
+}
+
+@media (max-width:481px)  {
+    .project-info{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: start !important;
+        padding-left: 30px !important;
+        width: 100vw !important;
+    }
+    .project-img{
+        width: 40vh !important;
+        height: 28vh !important;
+    }
+
+    .certificate-image{
+        width: 40vh !important;
+        height: 30vh !important;
+    }
+
+}
+
+.vertical-marquee h1 {
+  margin-left: 20px;
+  font-size: 4vw;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+  white-space: nowrap;
+}
+
+.project-img {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+.project-img:hover {
+  transform: rotate(6deg);
+}
+
+.stroke-text {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+.page4marquee {
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.page5marquee {
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35%;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.page4-marquee--inner {
+  display: block;
+  width: 200%;
+  position: absolute;
+  animation: page4marquee 10s linear infinite;
+}
+
+.page4-marquee--inner > span {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+
+@keyframes page4marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.page5mm {
+  animation: page5marquee 10s linear infinite;
+}
+@keyframes page5marquee {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+.rounded-image {
+  display: inline-block;
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+svg text {
+  fill: white;
+}

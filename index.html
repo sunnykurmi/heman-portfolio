@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heman Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="parent h-[100vh] overflow-hidden relative">
+      <div
+        class="menubar max-[600px]:w-screen max-[600px]:h-fit max-[600px]:flex-row max-[600px]:p-5 fixed z-10 flex flex-col items-center justify-between py-8 top-0 left-0 w-20 h-full bg-[#040404] text-white"
+      >
+        <div
+          class="logo-div hidden max-[600px]:flex overflow-hidden size-16 rounded-full"
+        >
+          <img class="size-full object-cover" src="./hemanProfilePic.jpg" alt="" />
+        </div>
+        <!-- <div class="text-3xl max-[600px]:">
+          <i class="ri-menu-line"></i>
+        </div> -->
+        <div
+          class="w-16 h-16 max-[600px]:hidden rounded-full bg-blue-300 overflow-hidden"
+        >
+          <img class="size-full" src="./hemanProfilePic.jpg" alt="" />
+        </div>
+        <div class="flex max-[600px]:hidden gap-3 flex-col text-xl">
+          <i class="ri-twitter-x-line"></i>
+          <a
+            href="https://www.instagram.com/heman.batra?igsh=MWo2OTBud2plYzZvMw=="
+          >
+            <i class="ri-instagram-line"></i>
+          </a>
+          <i class="ri-linkedin-line"></i>
+          <a href="mailto:hemanbatra8@gmail.com">
+            <i class="ri-mail-line"></i>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="menu-info absolute z-[2] top-[-100%] flex flex-col w-[100vw] h-screen bg-zinc-900 lg:pl-20"
+      >
+        <span class="w-full h-[10vh]"></span>
+        <div
+          class="links-container w-full h-[80vh] flex items-start pl-10 justify-center flex-col"
+        >
+          <div class="project-info-div flex flex-col w-1/2 gap-6">
+            <div class="flex items-center gap-2 text-zinc-200">
+              <div class="w-8 h-[2px] bg-zinc-200"></div>
+              <span class="w-full font-semibold"> Navigation </span>
+            </div>
+            <div class="text-white text-5xl flex flex-col gap-5">
+              <h1><a href="#home">HOME</a></h1>
+              <h1><a href="#project">PROJECTS</a></h1>
+              <h1><a href="#certificate">CERTIFICATE</a></h1>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full h-[10vh] gap-3 flex items-center justify-center text-xl text-white"
+        >
+          <i class="ri-twitter-x-line"></i>
+          <i class="ri-instagram-line"></i>
+          <i class="ri-linkedin-line"></i>
+          <i class="ri-facebook-line"></i>
+        </div>
+      </div>
+
+      <div class="main h-[100vh] max-[600px]:h-fit flex max-[600px]:flex-col">
+        <div
+          id="home"
+          class="firstpage h-full w-[100vw] flex flex-col justify-between items-center bg-[#2D3033] max-[600px]:h-screen shrink-0 pl-24 max-[600px]:pl-0 max-[600px]:pt-52"
+        >
+          <div
+            class="firstpageTop w-full flex justify-between p-7 max-[600px]:hidden"
+          >
+            <div class="logo w-36">
+              <p class="ttee text-white text-4xl">Heman</p>
+            </div>
+            <div
+              class="marquee-wrapper w-60 h-10 flex flex-col text-xl justify-center text-white flex-wrap whitespace-nowrap overflow-hidden"
+            >
+              <div class="marquee flex">
+                <h1 class="ml-2">Responsive web design</h1>
+                <h1 class="ml-2">Search Engine optimization</h1>
+                <h1 class="ml-2">Web hosting</h1>
+                <h1 class="ml-2">Web design</h1>
+                <h1 class="ml-2">Front-End development</h1>
+                <h1 class="ml-2">Responsive web design</h1>
+              </div>
+            </div>
+          </div>
+          <div class="headinng-wrapper">
+            <div
+              class="firstpageHeading w-[80vh] h-[35vh] max-[600px]:w-[40vh] max-[600px]:h-[22vh] border-b-2 border-t-2 text-center flex flex-col justify-center gap-4 max-[600px]:gap-2"
+            >
+              <h1 class="text-8xl max-[600px]:text-5xl text-white">ASPIRING</h1>
+              <h1 class="text-8xl max-[600px]:text-5xl text-white">STUDENT</h1>
+            </div>
+            <div
+              class="firstpageHeading2 text-center flex flex-col justify-center gap-4"
+            >
+              <h1 class="text-6xl max-[600px]:text-3xl mt-2 text-white">
+                Portfolio
+              </h1>
+            </div>
+          </div>
+          <div
+            class="firstpagebtm w-full flex items-center justify-between max-[600px]:justify-center p-7 text-white text-xl"
+          >
+            <h1 class="max-[600px]:hidden">Contact Me</h1>
+            <h1>Scroll &nearrow;</h1>
+          </div>
+        </div>
+
+        <div
+          class="vertical-marquee-wrapper relative w-[10vw] shrink-0 max-[600px]:w-[100vw] max-[600px]:h-[30vw] border-r-2 max-[600px]:border-b-2 max-[600px]:rotate-0"
+        >
+          <div
+            class="vertical-move-marquee max-[600px]:w-[100vw] max-[600px]:h-[20vh]"
+          >
+            <div class="vertical-marquee flex text-[#F4AABD]">
+              <h1 class="max-[600px]:12vw">PROJECT</h1>
+              <h1>PROJECT</h1>
+              <h1>PROJECT</h1>
+              <h1>PROJECT</h1>
+              <h1>PROJECT</h1>
+              <h1>PROJECT</h1>
+              <h1>PROJECT</h1>
+              <h1>PROJECT</h1>
+              <h1>PROJECT</h1>
+              <h1>PROJECT</h1>
+              <h1>PROJECT</h1>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="project"
+          class="secondpage max-[600px]:w-[100vw] max-[600px]:h-fit max-[600px]:pt-5 max-[600px]:pb-5 h-full w-fit pl-20 pr-20 flex max-[600px]:flex-col items-center justify-between gap-20 max-[600px]:gap-15 max-[600px]:flex-initial shrink-0"
+        >
+          <div
+            class="project-info w-[60vh] max-[600px]:w-[50vh] max-[600px]:h-[50vh] max-[600px]:gap-4 h-[55vh] flex flex-col justify-between"
+          >
+            <div class="project-img w-full h-[40vh]">
+              <a href="https://www.instagram.com/isp_association/">
+                <img
+                  class="size-full object-contain"
+                  src="./ispimage.jpeg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="project-info-div flex gap-2 max-[600px]:gap-0 flex-col">
+              <h2 class="text-sl font-bold text-[#F4AABD]">Features</h2>
+              <h1 class="text-2xl font-bold">ISP Association</h1>
+              <div class="flex items-center gap-2 text-zinc-400">
+                <div class="w-8 h-[2px] bg-zinc-400"></div>
+                <span class="">Co-founder</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project-info w-[60vh] max-[600px]:w-[50vh] max-[600px]:h-[50vh] max-[600px]:gap-4 h-[55vh] flex flex-col justify-between"
+          >
+            <a href="https://boostedasia.org/">
+              <div class="project-img w-full h-[40vh]">
+                <img
+                  class="h-full w-full object-contain"
+                  src="./boostedasia.png"
+                  alt=""
+                />
+              </div>
+            </a>
+            <div class="project-info-div flex gap-2 max-[600px]:gap-0 flex-col">
+              <h2 class="text-sl font-bold text-[#F4AABD]">Website</h2>
+              <h1 class="text-2xl font-bold">BOOSTED ASIA</h1>
+              <div class="flex items-center gap-2 text-zinc-400">
+                <div class="w-8 h-[2px] bg-zinc-400"></div>
+                <span class="">CMO @boostedasia</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project-info w-[60vh] max-[600px]:w-[50vh] max-[600px]:h-[50vh] max-[600px]:gap-4 h-[55vh] flex flex-col justify-between"
+          >
+            <a
+              href="https://www.amazon.in/STORIES-FOREVER-UNTOLD-Kaushal-Kathuria/dp/936355953X/ref=sr_1_1?crid=RKE8TSTLGNEL&dib=eyJ2IjoiMSJ9.hxmo0fTYJvb1dpwI8Pylb71kDcAANewqascoePRcfpdJ6TmmZXOZsR9HmZv6Nb2sgu1bSxqq8qsBWVuYOSjBIaNkEcK5J-a1bz76AMFWEUrvTXS_XpCF8B9cos5dzBkk_yoydxAy664m1ZVl16tqtzF899K7VnOrr6BNo_795BxAkkBnZFsFq8q6U1hlA6Tg4iNzghM1jq0QSpGjLVZjpc7g7CwiDmGJ82Uzj1zZSYw.Y6zsGPRkO5-VgkUD5hks3GIZpN0W4sRBn7J4OUWT7Os&dib_tag=se&keywords=stories+forever+untold&nsdOptOutParam=true&qid=1729581789&sprefix=stories+forever+untol%2Caps%2C320&sr=8-1"
+            >
+              <div class="project-img w-full h-[40vh] overflow-hidden">
+                <img
+                  class="w-full h-full object-contain"
+                  src="./book.jpg"
+                  alt=""
+                />
+              </div>
+            </a>
+
+            <div class="project-info-div flex gap-2 max-[600px]:gap-0 flex-col">
+              <h2 class="text-sl font-bold text-[#F4AABD]">Book</h2>
+              <h1 class="text-2xl font-bold">STORIES FOREVER UNTOLD</h1>
+              <div class="flex items-center gap-2 text-zinc-400">
+                <div class="w-8 h-[2px] bg-zinc-400"></div>
+                <span class=""
+                  >by Kaushal Kathuria (Author), Heman Batra (Author)</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="thirdpage max-[600px]:w-full max-[600px]:h-fit h-full w-[80vw] bg-[#23272B] shrink-0 max-[600px]:pt-14 max-[600px]:pl-5 max-[600px]:pr-0 pt-28 pl-20 pb-20 pr-20 flex flex-col justify-between text-white"
+        >
+          <h1 class="text-7xl max-[600px]:text-4xl">
+            Currently based in <span class="stroke-text">India</span>
+          </h1>
+          <div
+            class="page3-info flex max-[600px]:gap-10 max-[600px]:mt-14 max-[600px]:flex-col justify-between text-zinc-400 text-base"
+          >
+            <div class="info-lft w-[40%] max-[600px]:w-full">
+              <h1>
+                Providing frontend development services at Bitfinex, I
+                collaborate remotely with a team of awesome people from
+                different corners of the world.
+              </h1>
+            </div>
+            <div class="info-rgt w-[40%] max-[600px]:w-full">
+              <h1>
+                Writing my thesis on the dynamics of user motivation in Web3, I
+                investigate how blockchain and gamification are reshaping user
+                engagement and incentive structures.
+              </h1>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="fifthpage h-full w-[65vw] max-[600px]:w-full max-[600px]:h-fit shrink-0"
+        >
+          <div
+            class="pagefour-marquee w-full h-[50%] max-[600px]:h-[45vh] max-[600px]:pt-0 pt-10 pb-10 bg-[#EFA5B8]"
+          >
+            <div class="page5marquee max-[600px]:h-[15vh]">
+              <div
+                class="page4-marquee--inner max-[600px]:w-[360%] max-[600px]:flex"
+              >
+                <span class="pb-2">
+                  <div class="text-6xl text-white font-semibold">
+                    EDUCATION EDUCATION EDUCATION EDUCATION &nbsp;
+                  </div>
+                </span>
+                <span>
+                  <div class="text-6xl text-white font-semibold">
+                    &nbsp;EDUCATION EDUCATION EDUCATION EDUCATION &nbsp;
+                  </div>
+                </span>
+              </div>
+            </div>
+            <div class="page5marquee max-[600px]:h-[15vh]">
+              <div
+                class="page4-marquee--inner page5mm max-[600px]:w-[360%] max-[600px]:flex"
+              >
+                <span class="pb-2">
+                  <div class="text-6xl text-white font-semibold">
+                    EDUCATION EDUCATION EDUCATION EDUCATION &nbsp;
+                  </div>
+                </span>
+                <span>
+                  <div class="text-6xl text-white font-semibold">
+                    &nbsp;EDUCATION EDUCATION EDUCATION EDUCATION &nbsp;
+                  </div>
+                </span>
+              </div>
+            </div>
+
+            <div class="page5marquee max-[600px]:h-[15vh]">
+              <div
+                class="page4-marquee--inner max-[600px]:w-[360%] max-[600px]:flex"
+              >
+                <span class="pb-2">
+                  <div class="text-6xl text-white font-semibold">
+                    EDUCATION EDUCATION EDUCATION EDUCATION &nbsp;
+                  </div>
+                </span>
+                <span>
+                  <div class="text-6xl text-white font-semibold">
+                    &nbsp;EDUCATION EDUCATION EDUCATION EDUCATION &nbsp;
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="study-info w-full h-[60%] bg-[#FAFAFA]">
+            <div class="heading-page5 p-3 pl-8 bg-zinc-900">
+              <h1 class="font-bold text-xl text-white">STUDY</h1>
+            </div>
+            <div
+              class="work-info relative w-full h-fit flex justify-between items-center max-[600px]:pl-5 max-[600px]:pr-5 max-[600px]:pt-8 max-[600px]:pb-8 pl-20 p-3 pr-20 border-b-2 border-zinc-500"
+            >
+              <div
+                class="image-cursor max-[600px]:hidden overflow-hidden absolute w-24 h-24 rounded-full opacity-0"
+              >
+                <img
+                  class="size-full object-contain"
+                  src="./schoolLogo.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="project-info-div flex flex-col w-1/2">
+                <h2
+                  class="text-sl max-[600px]:text-xs font-bold text-[#F4AABD]"
+                >
+                  2021-22 | Present
+                </h2>
+                <h1 class="text-lg font-semibold">Apex Public School</h1>
+                <div class="flex items-center gap-2 text-zinc-400">
+                  <div class="w-8 h-[2px] bg-zinc-400"></div>
+                  <span class="">10th Standard</span>
+                </div>
+              </div>
+              <h1 class="text-base w-full font-semibold opacity-60 text-end">
+                91.4 %
+              </h1>
+            </div>
+            <div
+              class="work-info relative w-full h-fit flex justify-between items-center max-[600px]:pl-5 max-[600px]:pr-5 max-[600px]:pt-8 max-[600px]:pb-8 pl-20 p-3 pr-20 border-b-2 border-zinc-500"
+            >
+              <div
+                class="image-cursor max-[600px]:hidden absolute w-24 h-24 rounded-full overflow-hidden opacity-0"
+              >
+                <img
+                  class="size-full object-contain"
+                  src="./schoolLogo.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="project-info-div flex flex-col w-1/2">
+                <h2
+                  class="text-sl max-[600px]:text-xs font-bold text-[#F4AABD]"
+                >
+                  2022-23 | Present
+                </h2>
+                <h1 class="text-lg font-semibold">Apen Public School</h1>
+                <div class="flex items-center gap-2 text-zinc-400">
+                  <div class="w-8 h-[2px] bg-zinc-400"></div>
+                  <span class="">11th Standard </span>
+                </div>
+              </div>
+              <h1 class="text-base w-full font-semibold opacity-60 text-end">
+                95.8 %
+              </h1>
+            </div>
+            <div
+              class="work-info relative w-full h-fit flex justify-between items-center max-[600px]:pl-5 max-[600px]:pr-5 max-[600px]:pt-8 max-[600px]:pb-8 pl-20 p-3 pr-20 border-b-2 border-zinc-500"
+            >
+              <div
+                class="image-cursor max-[600px]:hidden overflow-hidden absolute w-24 h-24 rounded-full opacity-0"
+              >
+                <img
+                  class="size-full object-contain"
+                  src="./schoolLogo.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="project-info-div flex flex-col w-1/2">
+                <h2
+                  class="text-sl max-[600px]:text-xs font-bold text-[#F4AABD]"
+                >
+                  2023-24 | Present
+                </h2>
+                <h1 class="text-lg font-semibold">Apex Public School</h1>
+                <div class="flex items-center gap-2 text-zinc-400">
+                  <div class="w-8 h-[2px] bg-zinc-400"></div>
+                  <span class="">12th Standard</span>
+                </div>
+              </div>
+              <h1 class="text-base w-full font-semibold opacity-60 text-end">
+                83.4 %
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sixthpage h-full w-[60vw] max-[600px]:w-full flex flex-col justify-between bg-[#212529] shrink-0 p-20 max-[600px]:p-5 max-[600px]:pt-10 max-[600px]:pb-10 text-white text-lg"
+        >
+          <div
+            class="globe w-full h-[70%] max-[600px]:h-[50vh] overflow-hidden"
+          >
+            <img
+              class="size-full object-contain"
+              src="./HonorsCertificate.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p class="mb-5 text-zinc-400 text-base font-medium">
+              Getting the Best Student Award was surreal. My name rang in the
+              hall, and I suddenly became proud and thankful. This
+              acknowledgement of my diligence and the help of friends and
+              teachers resembles It motivates everyone around me to follow their
+              aspirations as well as myself to keep on aiming high. iske niche
+              wale main likh dena
+            </p>
+            <!-- <p>
+              See <span class="text-[#EDA3B6]">Awards & Recognitions.</span>
+            </p> -->
+          </div>
+        </div>
+
+        <div
+          class="vertical-marquee-wrapper relative w-[10vw] shrink-0 max-[600px]:w-[100vw] max-[600px]:h-[30vw] border-r-2 max-[600px]:border-b-2 max-[600px]:rotate-0"
+        >
+          <div
+            class="vertical-move-marquee max-[600px]:w-[100vw] max-[600px]:h-[20vh]"
+          >
+            <div class="vertical-marquee flex text-[#F4AABD]">
+              <h1>CERTIFICATE</h1>
+              <h1>CERTIFICATE</h1>
+              <h1>CERTIFICATE</h1>
+              <h1>CERTIFICATE</h1>
+              <h1>CERTIFICATE</h1>
+              <h1>CERTIFICATE</h1>
+              <h1>CERTIFICATE</h1>
+              <h1>CERTIFICATE</h1>
+              <h1>CERTIFICATE</h1>
+              <h1>CERTIFICATE</h1>
+              <h1>CERTIFICATE</h1>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="certificate"
+          class="seventhpage relative h-full w-[80vw] max-[600px]:w-full max-[600px]:h-fit flex max-[600px]:flex-col shrink-0 max-[600px]:pt-14 max-[600px]:pb-40 bg-zinc-50"
+        >
+          <div
+            class="page7-lft w-1/2 h-full max-[600px]:w-full max-[600px]:h-fit flex flex-col items-start pl-24 max-[600px]:pl-5 justify-center gap-5"
+          >
+            <div
+              class="certificate-image w-[60vh] h-[40vh] max-[600px]:w-[50vh] max-[600px]:h-[30vh ] border-yellow-500 border-[3px] rounded-xl bg-violet-300 cursor-pointer overflow-hidden"
+              data-tilt
+            >
+              <img
+                class="size-full"
+                src="./DigitalMarketingWebinarCertificate.png"
+                alt=""
+              />
+            </div>
+            <div class="project-info-div flex flex-col">
+              <h2 class="text-sl font-bold text-[#F4AABD]">01</h2>
+              <h1 class="text-2xl font-bold max-[600px]:font-semibold">
+                Digital Marketing
+              </h1>
+              <div class="flex items-center gap-2 text-zinc-400">
+                <div class="w-8 h-[2px] bg-zinc-400"></div>
+                <span class="">Ginyard international Co.</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="page7-rgt w-1/2 max-[600px]:w-full max-[600px]:h-fit max-[600px]:pl-5 max-[600px]:pt-10 h-full flex max-[600px]:gap-10 flex-col pl-20 justify-evenly"
+          >
+            <!-- <div class="project-info-div flex flex-col ">
+              <div class="certificate-container w-[40vh] h-[20vh] bg-red-300">
+                <img class="size-full object-cover" src="./udemycertificate.jpg" alt="">
+              </div>
+              <h2 class="text-sl font-bold text-[#F4AABD]">01</h2>
+              <h1 class="text-2xl max-[600px]:text-xl font-semibold">
+                Pears.com
+              </h1>
+              <div class="flex items-center gap-2 text-zinc-400">
+                <div class="w-8 h-[2px] bg-zinc-400"></div>
+                <span class="">Tether & Holepunch</span>
+              </div>
+            </div> -->
+            <div class="project-info-div flex flex-col">
+              <div class="certificate-container w-[40vh] h-[20vh] bg-zinc-50">
+                <img
+                  class="size-full object-contain"
+                  src="./CertificateOfParticipation.png"
+                  alt=""
+                />
+              </div>
+              <h2 class="text-sl font-bold text-[#F4AABD]">02</h2>
+              <h1 class="text-2xl max-[600px]:text-xl font-semibold">
+                Graphic Design
+              </h1>
+              <div class="flex items-center gap-2 text-zinc-400">
+                <div class="w-8 h-[2px] bg-zinc-400"></div>
+                <span class="">Tether & Holepunch</span>
+              </div>
+            </div>
+
+            <div class="project-info-div flex flex-col">
+              <div class="certificate-container w-[40vh] h-[20vh] bg-white">
+                <img
+                  class="size-full object-contain border-2 border-zinc-500"
+                  src="./udemycertificate.jpg"
+                  alt=""
+                />
+              </div>
+              <h2 class="text-sl font-bold text-[#F4AABD]">03</h2>
+              <h1 class="text-2xl max-[600px]:text-xl font-semibold">
+                Machine Learning | Data Science
+              </h1>
+              <div class="flex items-center gap-2 text-zinc-400">
+                <div class="w-8 h-[2px] bg-zinc-400"></div>
+                <span class="">Udemy</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="seperate-line absolute z-10 max-[600px]:top-[97%] max-[600px]:left-[50%] max-[600px]:w-[3px] max-[600px]:h-[30vh] bg-white max-[600px]:-translate-x-[50%] max-[600px]:-translate-y-[50%] mix-blend-difference"
+          ></div>
+        </div>
+
+        <div
+          class="lastpage h-full w-[65vw] max-[600px]:w-full max-[600px]:h-fit bg-[#24282C] shrink-0 text-white flex max-[600px]:pt-24 max-[600px]:pb-5 flex-col items-center justify-center text-center"
+        >
+          <h1 class="text-7xl max-[600px]:text-5xl font-bold">
+            <span class="text-6xl">Chase dreams</span> <br />
+            Create <span class="stroke-text">reality</span> <br />
+            together!
+          </h1>
+          <div class="rounded-image">
+            <svg height="324" width="324">
+              <path
+                id="ellipse-id-Ra59uja"
+                style="fill: none"
+                d="M81 162a81 81 0 1 0 162 0a81 81 0 1 0 -162 0"
+              ></path>
+              <text style="font-size: 20.5px; font-family: moret, serif">
+                <textPath xlink:href="#ellipse-id-Ra59uja" startOffset="0">
+                  <tspan>
+                    contact me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contact
+                    me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contact
+                    me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contact
+                    me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contact me
+                  </tspan>
+                </textPath>
+              </text>
+            </svg>
+          </div>
+          <p class="font-normal">
+            2024 Created by
+            <a
+              href="https://www.linkedin.com/in/adarsh-singh-chauhan-524544235/"
+              >Adarsh Singh</a
+            >
+            <br />
+            Inspired by Hanson Wu
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.rawgit.com/micku7zu/vanilla-tilt.js/master/dist/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
